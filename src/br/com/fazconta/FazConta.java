@@ -5,6 +5,7 @@ import javax.swing.JOptionPane;
 import br.com.divisao.Divisao;
 import br.com.facaescolha.FacaEscolha;
 import br.com.multiplica.Multiplica;
+import br.com.numeropar.NumeroPar;
 import br.com.porcentagem.Porcetagem;
 import br.com.soma.Soma;
 import br.com.subtrai.Subtrai;
@@ -46,4 +47,5 @@ public class FazConta {
 		}
 
 	}
+	
 }
