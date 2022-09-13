@@ -5,8 +5,8 @@ import javax.swing.JOptionPane;
 import br.com.divisao.Divisao;
 import br.com.facaescolha.FacaEscolha;
 import br.com.multiplica.Multiplica;
-import br.com.numeropar.NumeroPar;
 import br.com.porcentagem.Porcetagem;
+import br.com.potencia.Potencia;
 import br.com.soma.Soma;
 import br.com.subtrai.Subtrai;
 
@@ -41,6 +41,11 @@ public class FazConta {
 			Porcetagem porcentagem = new Porcetagem();
 			String converteR5 = Double.toString(porcentagem.porcentagem(num1, num2));
 			JOptionPane.showInputDialog(null,"O Resultado é: " + converteR5);
+			return escolheu.facasuaescolha();
+		case 8:
+			Potencia potencia = new Potencia();
+			Double.toString(potencia.potencia(num1, num2));
+
 			return escolheu.facasuaescolha();
 		default:
 			return opcaoSelecionada;
